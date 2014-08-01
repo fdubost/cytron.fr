@@ -1,0 +1,13 @@
+server {
+    server_name cytron.fr *.cytron.fr;
+    listen 80;
+    root /var/www/;
+    index index.html;
+}
+
+server {
+    server_name ghearchive.org *.ghearchive.org;
+    listen 80;
+    root /var/www/;
+    index ghearchive.html;
+}
